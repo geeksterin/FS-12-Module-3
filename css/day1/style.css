@@ -1,0 +1,26 @@
+*{
+    background-color: aliceblue;
+}
+
+h1{
+    color: cyan;
+    /* font-size: 50px; */
+}
+
+p{
+    background-color: rgb(175, 128, 128);
+}
+
+/* .head1{
+    font-weight: 900;
+} */
+
+.head2{
+    color: red;
+}
+
+#heading1{
+    color: green;
+}
+
+
