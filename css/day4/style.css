@@ -1,0 +1,56 @@
+.main-element{
+    /* position: static; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+    /* left: 10px;
+    bottom: 10px; */
+    top: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+ .sibling-element{
+    padding: 10px;
+    background-color: cyan;
+    border: 1px solid red;
+}
+
+.parent-element{
+    position: relative;
+    height: 1500px;
+    background-color: #81adc8;
+    padding: 10px;
+} 
+/* body{
+    position: relative;
+} */
+
+/* html{
+    height: 2000px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid cyan;
+    background-color: greenyellow;
+    overflow: scroll;
+    overflow-y: scroll;
+} */
