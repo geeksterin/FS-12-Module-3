@@ -1,0 +1,71 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+#heading1{
+    text-align: center;
+}
+
+#div4{
+    /* box-sizing: border-box; */
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: cyan;
+    padding: 10px;
+    margin: 10px;
+}
+
+#div4:hover{
+    background-color: red;
+}
+
+#div1{
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    top: 10px;
+    left: 80px;
+    position: relative;
+    z-index: 1;
+}
+#div2{
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+    top: -50px;
+    left: 35px;
+    position: relative;
+    z-index: auto;
+}
+#div3{
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    top: -220px;
+    left: 120px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+p::first-letter{
+    color: darkgreen;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h1{
+    color: rebeccapurple;
+}
+
+h1::before{
+    content:'Akhil ';
+}
+
+h1::after{
+    content:'Akhil ';
+}
