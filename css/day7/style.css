@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    height: 75vh;
+    width: 75vw;
+    border: 2px solid #cf6119;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.divi{
+    height: 50px;
+    width: 50px;
+    background-color:#2196F3 ;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+#div1{
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+#div2{
+    /* flex-basis: 10px; */
+}
+#div3{
+    /* flex-grow: 2; */
+    /* flex-basis: 80vw; */
+}
+#div4{
+    /* flex-grow: 7; */
+    /* flex-basis: 90px; */
+}
+
+
