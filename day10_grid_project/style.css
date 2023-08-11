@@ -1,0 +1,118 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    color: linen;
+    font-family: 'Baskervville',serif;
+    background-color: rgb(20, 30, 40);
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: linen;
+}
+
+main{
+    display: grid;
+    row-gap: 3rem;
+    grid-template-columns: minmax(2rem , 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.heading{
+    display: grid;
+    row-gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 2 / 3;
+}
+
+.hero{
+    grid-column: 1 / -1;
+}
+
+.hero-title{
+    font-size: 8rem;
+    text-align: center;
+    color: orangered;
+}
+
+.hero-subtitle{
+    font-size: 2.5rem;
+    text-align: center;
+    color: orangered;
+}
+
+.author{
+    font-size: 2rem;
+    font-family: 'Raleway',sans-serif;
+}
+
+.author-name a:hover{
+    background-color: #306203;
+}
+
+.publish-date{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-icons{
+    display: grid;
+    font-size: 3rem;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.first-paragraph::first-letter{
+    float: left;
+    font-size: 6rem;
+    color: orangered;
+    margin-right: 1rem;
+}
+
+.quote{
+    color: #00beef;
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.quote::before{
+    content: '" ';
+}
+
+.quote::after{
+    content: ' "';
+}
+
+hr{
+    margin: 1.5rem 0;
+     color: rgba(255, 255, 255, 0.3);
+}
+
+.text{
+    font-size: 1.8rem;
+    grid-column: 2 / 3;
+    column-width: 25rem;
+    text-align: justify;
+    letter-spacing: 0.6px;
+}
+
