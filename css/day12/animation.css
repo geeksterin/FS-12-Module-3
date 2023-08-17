@@ -1,0 +1,125 @@
+
+#div1{
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 10%;
+    background-color: blue;
+    position: absolute;
+    /* animation-name: div1_animation; */
+    /* animation-timing-function: ease-in-out; */
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-style: preserve-3d;
+    perspective: 100px;
+    /* animation: div1_animation 1s ease-in-out infinite alternate; */
+}
+
+@keyframes div1_animation {
+    from{
+        border-radius: 0%;
+        border: 2px solid black;
+    }
+    to{
+        border-radius:50%;
+        border: 2px solid red;
+    }
+}
+/* 
+#div2{
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    background-color: lightsalmon;
+    animation-name: div2_animation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes div2_animation {
+    0%{
+        transform: rotate(0deg) scale(.5);
+        background-color: lightsalmon;
+        border: 5px dashed purple;
+    }
+    100%{
+        transform: rotate(360deg) scale(2);
+        background-color: darkgreen;
+        border: 5px dashed yellow;
+    }
+} */
+
+/* #div3{
+    width: 200px;
+    height: 200px;
+    top: 80%;
+    left: 50%;
+    border: 2px solid;
+    position: absolute;
+    animation-name: div3_animation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes div3_animation {
+    0%{
+        border-color: black;
+        color: white;
+    }
+    100%{
+        border-color: white;
+        color: black;
+    }
+} */
+
+
+#div4{
+    width: 200px;
+    height: 200px;
+    top: 90%;
+    left: 60%;
+    background-color: tomato;
+    position: absolute;
+    animation-name: div4_animation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes div4_animation {
+    0%{
+        transform: translate(0px);
+        background-color: tomato;
+        border-radius: 0%;
+    }
+    1%{
+        transform: rotate(-7deg);
+    }
+    25%{
+        transform: rotate(-70deg) scale(.8,.8);
+        background-color: aquamarine;
+        margin-bottom: 20px;
+    }
+    50%{
+        transform: rotate(+70deg) scale(1.2, .8);
+        background-color: blueviolet;
+    }
+    75%{
+        transform: rotate(-70deg) scale(.8,1.2);
+        background-color: darkorange;
+
+    }
+    100%{
+        transform: rotate(+70deg) scale(1.2,1.2) translate(-100px);
+        background-color: red;
+        border-radius: 50%;
+    }
+}
