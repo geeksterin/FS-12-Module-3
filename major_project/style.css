@@ -602,3 +602,177 @@ button:hover {
   background-color: var(--white-color);
   color: var(--light-green-color);
 }
+
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10vh 7vw;
+  justify-content: space-around;
+}
+
+
+.about>div{
+  width: 500px;
+}
+
+.about-content>h6, .contact>div>h6{
+  color: var(--light-green-color);
+  text-transform:uppercase;
+  font-weight: 500;
+
+}
+
+.about-content>h2, .contact>div>h2{
+  color: var(--dark-gray-color);
+  margin-top: -10px;
+}
+
+.about-content>p, .contact>div>p, .contact>div>.location, .contact>div>.contacts{
+  color: var(--light-gray-color);
+  line-height: 1.5rem;
+}
+
+.about-content>ul{
+  list-style: none;
+  line-height: 1.8rem;
+}
+
+.about-content>ul>li{
+  position: relative;
+  color: var(--light-gray-color);
+}
+
+.about-content>ul>li::before{
+  content: "◼";
+  color: var(--green-background-color);
+  position: absolute;
+  left: -16px;
+  bottom: 3px;
+}
+
+.about-feedback{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-feedback>div>h1{
+  color: var(--green-background-color);
+  font-size: 45px;
+}
+
+.about-feedback>div>div>p{
+  color: var(--light-gray-color);
+  margin-left: 8px;
+}
+
+.about-feedback>div{
+  display: flex;
+  align-items: center;
+  line-height: 0px;
+}
+
+
+.contact{
+  margin: 10vh 7vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-form, .contact-details{
+  width: 500px;
+}
+
+.icons{
+  color: var(--green-background-color);
+}
+
+.contacts>span{
+  text-decoration: underline;
+}
+
+.location,.contacts{
+  margin-top: 10px;
+}
+
+
+.hexagon-group{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.contact .hexagon{
+  background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/hexagon-green.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin: 2vh 0px;
+  margin-left: 8px;
+ transform: opacity 3s ease-in-out;
+}
+
+.contact .hexagon>i{
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  font-size: 1.5rem;
+}
+
+
+.hexagon:hover{
+  opacity: 0.1;
+}
+
+.contact-form input[type="text"],input[type="email"]
+,textarea
+{
+  outline: none;
+  border: 1px solid #dadada;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  color: #787976;
+  width: 100%;
+  display: block;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0px;
+}
+
+.checkbox{
+  display: inline;
+}
+
+.contact-form span{
+  color: var(--light-gray-color);
+  font-size: 0.8rem;
+}
+
+.contact-form button{
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.contact-form>form>span>span{
+  text-decoration: underline;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-green-color);
+  padding: 5vh 7vw;
+  color: var(--dark-white-color);
+}
+footer a{
+  text-decoration: none;
+  color: var(--dark-white-color);
+  display: block;
+  text-decoration: underline;
+  line-height: 1.9rem;
+}
+
+footer>div:nth-child(1){
+  width: 50%;
+}
+
